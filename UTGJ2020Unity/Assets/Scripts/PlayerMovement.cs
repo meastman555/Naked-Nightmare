@@ -12,12 +12,16 @@ public class PlayerMovement : MonoBehaviour
     private int spriteIndex;
     private SpriteRenderer sr;
 
+    private Animator anim;
+
     private Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
+        anim.enabled = false;
     }
 
     // Update is called once per frame
@@ -36,6 +40,8 @@ public class PlayerMovement : MonoBehaviour
         else if(Input.GetKey(KeyCode.S)){
             rb.velocity = Vector2.down * speed;
             sr.sprite = sprites[0];
+            anim.enabled = true;
+            anim.Play("RunForward");
         }
         else if(Input.GetKey(KeyCode.A)){
             rb.velocity = Vector2.left * speed;
@@ -49,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             rb.velocity = Vector2.zero;
+            anim.enabled = false;
         }
     }
 }
