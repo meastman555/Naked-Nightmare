@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 sceneSetups: []
+=======
+sceneSetups:
+- path: Assets/Scenes/Jojo.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+>>>>>>> 8d54508bf7430b9d734a2ac482af48f0ef864f1f
