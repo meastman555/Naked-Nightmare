@@ -7,6 +7,7 @@ public class Detection : MonoBehaviour
 
     [SerializeField] GameObject player;
     [SerializeField] float fov;
+    [SerializeField] float maxDistance;
 
     // Start is called before the first frame update
     void Start()
@@ -17,25 +18,27 @@ public class Detection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //Debug to test with rotation
+        //if(Input.GetKey(KeyCode.Space)){
+        //    transform.Rotate(0, 0, 100 * Time.deltaTime);
+        //}
     }
 
     //adapted from Unity docs on Vector3.angle and forum on basic cone FOV
     void FixedUpdate(){
-        Vector3 target_direction = transform.position - player.transform.position;
-        //second vector should be enemy facing vector?
-        //rounds angle just to make things easier
-        Vector3 enemy_vector = 
-        int angle = (int) Vector3.Angle(target_direction, Vector3.forward);
-        //Debug.Log((int)angle);
-        if(angle < fov / 2){
-            Debug.Log("i can see");
+        //calculates the direction vector, distance between two objects (magnitude of distance), and angle between axis and direction
+        Vector3 directionVector = transform.position - player.transform.position;
+        float distance = directionVector.magnitude;
+        //transform.right could be changed depending on starting rotation of enemies
+        float angle = Vector3.Angle(directionVector, transform.right);
+        //conditions for detection
+        if(angle < (fov / 2f) && distance <= maxDistance){
             Debug.DrawLine(transform.position, player.transform.position, Color.red);
             //detection has occurred, call movement script to follow
             //or game just fails?
         }
+        //safety (so do nothing?)
         else{
-            Debug.Log("I cannot see");
             Debug.DrawLine(transform.position, player.transform.position, Color.green);
         }
     }
