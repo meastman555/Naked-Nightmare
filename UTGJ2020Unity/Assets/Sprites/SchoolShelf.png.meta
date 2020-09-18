@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-guid: 0a71d573de8961e4e875cfb9938c2f83
+guid: 7a2c7d9bd13a21a4284cedb797d31add
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -3252678823504614796
-    second: turnaround-Sheet_0
-  - first:
-      213: -4894767646219237233
-    second: turnaround-Sheet_1
-  - first:
-      213: -9103940390805955915
-    second: turnaround-Sheet_2
-  - first:
-      213: -5936123483115327891
-    second: turnaround-Sheet_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -52,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -145,91 +133,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: turnaround-Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 19
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47a629ce7d92cd2d0800000000000000
-      internalID: -3252678823504614796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: turnaround-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 0
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f88070562ca421cb0800000000000000
-      internalID: -4894767646219237233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: turnaround-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 0
-        width: 19
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ba1ea5037e48a180800000000000000
-      internalID: -9103940390805955915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: turnaround-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 0
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6e6e0e9427ae9da0800000000000000
-      internalID: -5936123483115327891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
