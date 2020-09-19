@@ -1,10 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 688b752082de5bb40948c262d166469a
-TextureImporter:
-  internalIDToNameTable: []
-=======
-guid: 5e674ee5ad1e9d4459e3a70c43414cda
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -31,7 +26,6 @@ TextureImporter:
   - first:
       213: 3363364893649807805
     second: pantsIdle_7
->>>>>>> 30ac5cc1d95ae2e852b4015693fc561e3a0bb54e
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,33 +55,21 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
-    filterMode: -1
-=======
     filterMode: 0
->>>>>>> 30ac5cc1d95ae2e852b4015693fc561e3a0bb54e
     aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 1
-=======
   spriteMode: 2
->>>>>>> 30ac5cc1d95ae2e852b4015693fc561e3a0bb54e
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-  spritePixelsToUnits: 100
-=======
   spritePixelsToUnits: 16
->>>>>>> 30ac5cc1d95ae2e852b4015693fc561e3a0bb54e
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,16 +81,13 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 1
-=======
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -170,7 +149,6 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
->>>>>>> 30ac5cc1d95ae2e852b4015693fc561e3a0bb54e
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -179,9 +157,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
-    sprites: []
-=======
     sprites:
     - serializedVersion: 2
       name: pantsIdle_0
@@ -351,11 +326,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
->>>>>>> 30ac5cc1d95ae2e852b4015693fc561e3a0bb54e
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: ee6a14dd287812147b7e74486e4c4102
     internalID: 0
     vertices: []
     indices: 
