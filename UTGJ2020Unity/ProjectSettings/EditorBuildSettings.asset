@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Mason.unity
+    guid: c8af417d92c38ff4eade3d8d728e1d24
+  - enabled: 0
+    path: Assets/Scenes/Jojo.unity
+    guid: 4a96f42829052a84fad45731ac179b9b
   m_configObjects: {}
