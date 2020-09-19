@@ -49,8 +49,9 @@ public class PathFinding : MonoBehaviour
             {
                 //parent moves along the path, but we only want to rotate the child detection object
                 if(waypointIndex == rotatePoints[rotateIndex]){
-                    Debug.Log("rotated");
-                    transform.GetChild(0).gameObject.transform.Rotate(0, 0, rotateDegrees[rotateIndex]);
+                    Debug.Log(rotateIndex);
+                    Debug.Log("rotated " + rotateDegrees[rotateIndex] + " degrees");
+                    transform.GetChild(0).gameObject.transform.eulerAngles = new Vector3(0, 0, rotateDegrees[rotateIndex]);
                     rotateIndex++;
                 }
                 waypointIndex += 1;
