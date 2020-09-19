@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Key
   - Door
+  - Key
   layers:
   - Default
   - TransparentFX
@@ -15,15 +15,9 @@ TagManager:
   - UI
   - 
   - 
-<<<<<<< HEAD
-  - floor
-  - walls
-  - insidewalls
-=======
-  - Detection
   - 
   - 
->>>>>>> 17359c9113d5fe4d1272e3b20ac774425c9344dc
+  - 
   - 
   - 
   - 
