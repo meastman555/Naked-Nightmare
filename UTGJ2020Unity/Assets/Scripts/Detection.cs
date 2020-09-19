@@ -5,9 +5,12 @@ using UnityEngine;
 public class Detection : MonoBehaviour
 {
 
+    //Make this the detection collision child object!!
     [SerializeField] GameObject player;
     [SerializeField] float fov;
     [SerializeField] float maxDistance;
+
+    public LayerMask masks;
 
     // Start is called before the first frame update
     void Start()
@@ -19,25 +22,33 @@ public class Detection : MonoBehaviour
     void Update()
     {
         //Debug to test with rotation
-        //if(Input.GetKey(KeyCode.Space)){
-        //    transform.Rotate(0, 0, 100 * Time.deltaTime);
-        //}
+        if(Input.GetKey(KeyCode.Space)){
+            transform.Rotate(0, 0, 100 * Time.deltaTime);
+        }
     }
 
     //adapted from Unity docs on Vector3.angle and forum on basic cone FOV
     void FixedUpdate(){
-        //calculates the direction vector, distance between two objects (magnitude of distance), and angle between axis and direction
-        Vector3 directionVector = transform.position - player.transform.position;
+        //vector between player and enemy, then magnitude of it
+        Vector3 directionVector =  player.transform.position - transform.position;
         float distance = directionVector.magnitude;
-        //transform.right could be changed depending on starting rotation of enemies
-        float angle = Vector3.Angle(directionVector, transform.right);
-        //conditions for detection
+        //calculates angle between the direction vector and the left unit vector
+        //stays left even when emeny fov rotates
+        float angle = Vector3.Angle(directionVector, -transform.right);
+        //conditions for detection (within fov and certain distance from enemy)
         if(angle < (fov / 2f) && distance <= maxDistance){
-            Debug.DrawLine(transform.position, player.transform.position, Color.red);
-            //detection has occurred, call movement script to follow
-            //or game just fails?
+            //player is within vision cone, but have to check if there is anything in the way
+            RaycastHit2D hit = Physics2D.Linecast(transform.position, player.transform.position, masks);
+            //we have hit the player, so DO stuff (access enemy movement, game over?)
+            if(hit.collider != null && hit.collider.tag == "Player"){
+                Debug.DrawLine(transform.position, hit.point, Color.red);
+            } 
+            //enemy sees an object in front of you, this technically should do nothing, but for testing
+            else{
+                Debug.DrawLine(transform.position, player.transform.position, Color.blue);
+            }
         }
-        //safety (so do nothing?)
+        //you are completely outside the fov range, so do nothing, but for testing
         else{
             Debug.DrawLine(transform.position, player.transform.position, Color.green);
         }

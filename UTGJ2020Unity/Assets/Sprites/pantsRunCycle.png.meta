@@ -1,7 +1,61 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 022350869035d1a4cb6dcb74a22046f0
 TextureImporter:
   internalIDToNameTable: []
+=======
+guid: 1e743587e01d3de478564456cdbf8f8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4670387467451097268
+    second: pantsRunCycle_0
+  - first:
+      213: 8372058127678786802
+    second: pantsRunCycle_1
+  - first:
+      213: -5008132188313038733
+    second: pantsRunCycle_2
+  - first:
+      213: 4123482329698818880
+    second: pantsRunCycle_3
+  - first:
+      213: -6938462649341625331
+    second: pantsRunCycle_4
+  - first:
+      213: 159474038503403186
+    second: pantsRunCycle_5
+  - first:
+      213: -8586846026849841549
+    second: pantsRunCycle_6
+  - first:
+      213: 6321127988994792798
+    second: pantsRunCycle_7
+  - first:
+      213: 4714271859168593959
+    second: pantsRunCycle_0
+  - first:
+      213: -8156666893617140582
+    second: pantsRunCycle_1
+  - first:
+      213: 1827766832986068136
+    second: pantsRunCycle_2
+  - first:
+      213: 6602947637472210563
+    second: pantsRunCycle_3
+  - first:
+      213: -2666990038695706429
+    second: pantsRunCycle_4
+  - first:
+      213: 8767028206706599809
+    second: pantsRunCycle_5
+  - first:
+      213: -1029422551637177984
+    second: pantsRunCycle_6
+  - first:
+      213: -6854857181594168702
+    second: pantsRunCycle_7
+>>>>>>> 17359c9113d5fe4d1272e3b20ac774425c9344dc
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +85,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: -1
+=======
+    filterMode: 0
+>>>>>>> 17359c9113d5fe4d1272e3b20ac774425c9344dc
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +98,20 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 1
+=======
+  spriteMode: 2
+>>>>>>> 17359c9113d5fe4d1272e3b20ac774425c9344dc
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 100
+=======
+  spritePixelsToUnits: 16
+>>>>>>> 17359c9113d5fe4d1272e3b20ac774425c9344dc
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -64,7 +130,71 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 1
+=======
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+>>>>>>> 17359c9113d5fe4d1272e3b20ac774425c9344dc
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -73,7 +203,179 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites: []
+=======
+    sprites:
+    - serializedVersion: 2
+      name: pantsRunCycle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7284d5457457c6140800000000000000
+      internalID: 4714271859168593959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pantsRunCycle_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ce2c61da2bdce80800000000000000
+      internalID: -8156666893617140582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pantsRunCycle_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4106c20488d5910800000000000000
+      internalID: 1827766832986068136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pantsRunCycle_3
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e290274e162ab50800000000000000
+      internalID: 6602947637472210563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pantsRunCycle_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0890ca0b2fcfad0800000000000000
+      internalID: -2666990038695706429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pantsRunCycle_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187a39c44bdbaa970800000000000000
+      internalID: 8767028206706599809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pantsRunCycle_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089c3e5b4a1c6b1f0800000000000000
+      internalID: -1029422551637177984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pantsRunCycle_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d50db4a6829b750800000000000000
+      internalID: 6321127988994792798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 17359c9113d5fe4d1272e3b20ac774425c9344dc
     outline: []
     physicsShape: []
     bones: []
