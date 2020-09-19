@@ -8,6 +8,12 @@ public class Key : MonoBehaviour
     [SerializeField]
     private KeyType keyType;
 
+    private Animator anim;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     public enum KeyType
     {
@@ -21,6 +27,11 @@ public class Key : MonoBehaviour
     public KeyType GetKeyType()
     {
         return keyType;
+    }
+
+    private void Update()
+    {
+        anim.Play("KeyFloat");
     }
 
 }
