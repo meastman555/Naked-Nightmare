@@ -26,6 +26,30 @@ TextureImporter:
   - first:
       213: 6321127988994792798
     second: pantsRunCycle_7
+  - first:
+      213: 4714271859168593959
+    second: pantsRunCycle_0
+  - first:
+      213: -8156666893617140582
+    second: pantsRunCycle_1
+  - first:
+      213: 1827766832986068136
+    second: pantsRunCycle_2
+  - first:
+      213: 6602947637472210563
+    second: pantsRunCycle_3
+  - first:
+      213: -2666990038695706429
+    second: pantsRunCycle_4
+  - first:
+      213: 8767028206706599809
+    second: pantsRunCycle_5
+  - first:
+      213: -1029422551637177984
+    second: pantsRunCycle_6
+  - first:
+      213: -6854857181594168702
+    second: pantsRunCycle_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -162,19 +186,19 @@ TextureImporter:
       name: pantsRunCycle_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 21
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b0ebd828ac80d040800000000000000
-      internalID: 4670387467451097268
+      spriteID: 7284d5457457c6140800000000000000
+      internalID: 4714271859168593959
       vertices: []
       indices: 
       edges: []
@@ -184,18 +208,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 21
-        y: 0
-        width: 21
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fc473392868f2470800000000000000
-      internalID: 8372058127678786802
+      spriteID: a9ce2c61da2bdce80800000000000000
+      internalID: -8156666893617140582
       vertices: []
       indices: 
       edges: []
@@ -206,17 +230,17 @@ TextureImporter:
         serializedVersion: 2
         x: 42
         y: 0
-        width: 21
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 370d6671f4a8f7ab0800000000000000
-      internalID: -5008132188313038733
+      spriteID: 8a4106c20488d5910800000000000000
+      internalID: 1827766832986068136
       vertices: []
       indices: 
       edges: []
@@ -226,18 +250,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 63
-        y: 0
-        width: 21
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b5c4be45d893930800000000000000
-      internalID: 4123482329698818880
+      spriteID: 38e290274e162ab50800000000000000
+      internalID: 6602947637472210563
       vertices: []
       indices: 
       edges: []
@@ -246,19 +270,19 @@ TextureImporter:
       name: pantsRunCycle_4
       rect:
         serializedVersion: 2
-        x: 84
+        x: 85
         y: 0
-        width: 21
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0c3da26bf0a5bf90800000000000000
-      internalID: -6938462649341625331
+      spriteID: 3c0890ca0b2fcfad0800000000000000
+      internalID: -2666990038695706429
       vertices: []
       indices: 
       edges: []
@@ -267,19 +291,19 @@ TextureImporter:
       name: pantsRunCycle_5
       rect:
         serializedVersion: 2
-        x: 105
-        y: 0
-        width: 21
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 107
+        y: 1
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2be64e70bc0963200800000000000000
-      internalID: 159474038503403186
+      spriteID: 187a39c44bdbaa970800000000000000
+      internalID: 8767028206706599809
       vertices: []
       indices: 
       edges: []
@@ -288,19 +312,19 @@ TextureImporter:
       name: pantsRunCycle_6
       rect:
         serializedVersion: 2
-        x: 126
+        x: 128
         y: 0
-        width: 21
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37e04ac980565d880800000000000000
-      internalID: -8586846026849841549
+      spriteID: 089c3e5b4a1c6b1f0800000000000000
+      internalID: -1029422551637177984
       vertices: []
       indices: 
       edges: []
@@ -309,19 +333,19 @@ TextureImporter:
       name: pantsRunCycle_7
       rect:
         serializedVersion: 2
-        x: 147
-        y: 0
-        width: 21
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 149
+        y: 1
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d50db4a6829b750800000000000000
-      internalID: 6321127988994792798
+      spriteID: 2825b0146b7aed0a0800000000000000
+      internalID: -6854857181594168702
       vertices: []
       indices: 
       edges: []
