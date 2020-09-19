@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKey(KeyCode.W)){
             rb.velocity = Vector2.up * speed;
             sr.sprite = sprites[2];
+            anim.Play("RunBack");
         }
         else if(Input.GetKey(KeyCode.S)){
             rb.velocity = Vector2.down * speed;
