@@ -186,7 +186,7 @@ TextureImporter:
       name: pantsRunCycle_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
         width: 19
         height: 32
@@ -207,8 +207,8 @@ TextureImporter:
       name: pantsRunCycle_1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1
+        x: 20
+        y: 0
         width: 19
         height: 32
       alignment: 7
@@ -228,7 +228,7 @@ TextureImporter:
       name: pantsRunCycle_2
       rect:
         serializedVersion: 2
-        x: 42
+        x: 40
         y: 0
         width: 19
         height: 32
@@ -249,7 +249,7 @@ TextureImporter:
       name: pantsRunCycle_3
       rect:
         serializedVersion: 2
-        x: 63
+        x: 62
         y: 1
         width: 19
         height: 31
@@ -270,7 +270,7 @@ TextureImporter:
       name: pantsRunCycle_4
       rect:
         serializedVersion: 2
-        x: 85
+        x: 82
         y: 0
         width: 19
         height: 32
@@ -291,8 +291,8 @@ TextureImporter:
       name: pantsRunCycle_5
       rect:
         serializedVersion: 2
-        x: 107
-        y: 1
+        x: 102
+        y: 0
         width: 19
         height: 32
       alignment: 7
@@ -312,7 +312,7 @@ TextureImporter:
       name: pantsRunCycle_6
       rect:
         serializedVersion: 2
-        x: 128
+        x: 122
         y: 0
         width: 19
         height: 32
@@ -333,7 +333,7 @@ TextureImporter:
       name: pantsRunCycle_7
       rect:
         serializedVersion: 2
-        x: 149
+        x: 144
         y: 1
         width: 19
         height: 31
@@ -344,8 +344,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2825b0146b7aed0a0800000000000000
-      internalID: -6854857181594168702
+      spriteID: e5d50db4a6829b750800000000000000
+      internalID: 6321127988994792798
       vertices: []
       indices: 
       edges: []
