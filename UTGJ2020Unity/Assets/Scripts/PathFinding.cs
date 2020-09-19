@@ -12,13 +12,14 @@ public class PathFinding : MonoBehaviour
     private float enemySpeed;
 
     //for rotation stuff, uncomment when ready to test
-    //[SerializeField]
-    //private int[] rotatePoints;
+    [SerializeField]
+    private int[] rotatePoints;
 
-    //[SerializeField]
-    //private float[] rotateDegrees;
+    [SerializeField]
+    private float[] rotateDegrees;
 
     private int waypointIndex = 0;
+    private int rotateIndex = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +37,7 @@ public class PathFinding : MonoBehaviour
     void EnemyMove()
     {   
         //we are still in cycle
-        if (waypointIndex <= waypoints.Length - 1)
+        if (waypointIndex < waypoints.Length)
         {
             //moving towards the next node in cycle
             transform.position = Vector2.MoveTowards(transform.position, 
@@ -46,18 +47,20 @@ public class PathFinding : MonoBehaviour
             //when we get there, increment to the next node
             if (transform.position == waypoints[waypointIndex].transform.position)
             {
+                //parent moves along the path, but we only want to rotate the child detection object
+                if(waypointIndex == rotatePoints[rotateIndex]){
+                    Debug.Log("rotated");
+                    transform.GetChild(0).gameObject.transform.Rotate(0, 0, rotateDegrees[rotateIndex]);
+                    rotateIndex++;
+                }
                 waypointIndex += 1;
-                //if point is a certain "rotate" point, denoted by path indecies
-                //we only want to do this when we get to the final point
-                    //check corresponding rotation array for the angle to rotate over
-                //each enemy has to hard code their own rotation nodes and degrees from their unique path
-
             }
         }
         //wrapping around to the beginning of cycle
-        if(waypointIndex >= waypoints.Length - 1)
+        if(waypointIndex >= waypoints.Length)
         {
             waypointIndex = 0;
+            rotateIndex = 0;
         }
     }
 }
