@@ -121,6 +121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0ef0c3b583a91428a1b9cf453cff99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingOrderBase: 500
+  sortingOrderBase: 502
   offset: 0
   runOnlyOnce: 1

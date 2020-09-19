@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        anim.enabled = false;
+        anim.Play("Idle");
     }
 
     // Update is called once per frame
@@ -40,7 +40,6 @@ public class PlayerMovement : MonoBehaviour
         else if(Input.GetKey(KeyCode.S)){
             rb.velocity = Vector2.down * speed;
             sr.sprite = sprites[0];
-            anim.enabled = true;
             anim.Play("RunForward");
         }
         else if(Input.GetKey(KeyCode.A)){
@@ -55,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             rb.velocity = Vector2.zero;
-            anim.enabled = false;
+            anim.Play("Idle");
         }
     }
 }
