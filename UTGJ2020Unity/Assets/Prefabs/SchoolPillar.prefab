@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4326004226399376179}
   - component: {fileID: 4326004226399376178}
   - component: {fileID: 4326004226399376177}
-  - component: {fileID: 4326004226399376188}
   m_Layer: 0
   m_Name: SchoolPillar
   m_TagString: Untagged
@@ -97,7 +96,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0043461323, y: -0.7571606}
+  m_Offset: {x: -0.00021660328, y: -0.74477595}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -108,23 +107,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9917893, y: 0.50429523}
+  m_Size: {x: 2.0000484, y: 0.52906454}
   m_EdgeRadius: 0
---- !u!114 &4326004226399376188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4326004226399376176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac0ef0c3b583a91428a1b9cf453cff99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sortingOrderBase: 501
-  offset: 0
-  runOnlyOnce: 1
 --- !u!1 &6755565701929454336
 GameObject:
   m_ObjectHideFlags: 0
