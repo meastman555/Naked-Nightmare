@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,17 +11,22 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Sprite[] sprites;
 
     private int spriteIndex;
+    private bool facingRight = true;
+
     private SpriteRenderer sr;
-
     private Animator anim;
-
     private Rigidbody2D rb;
+    private Transform tf;
+    private Vector3 myScale;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        tf = GetComponent<Transform>();
+        myScale = tf.localScale;
         anim.Play("Idle");
     }
 
@@ -46,10 +52,12 @@ public class PlayerMovement : MonoBehaviour
         else if(Input.GetKey(KeyCode.A)){
             rb.velocity = Vector2.left * speed;
             sr.sprite = sprites[3];
+            anim.Play("RunSide");
         }
         else if(Input.GetKey(KeyCode.D)){
             rb.velocity = Vector2.right * speed;
             sr.sprite = sprites[1];
+            anim.Play("RunSide");
         }
         //stationary
         else
@@ -57,5 +65,22 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = Vector2.zero;
             anim.Play("Idle");
         }
+
+        if(rb.velocity.x > 0 && !facingRight)
+        {
+            FlipSprite();
+        }
+        else if(rb.velocity.x < 0 && facingRight)
+        {
+            FlipSprite();
+        }
     }
+
+    void FlipSprite()
+    {
+        facingRight = !facingRight;
+        myScale.x *= -1;
+        tf.localScale = myScale;
+    }
+
 }
