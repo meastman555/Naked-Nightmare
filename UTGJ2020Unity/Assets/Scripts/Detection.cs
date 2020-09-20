@@ -42,8 +42,10 @@ public class Detection : MonoBehaviour
             RaycastHit2D hit = Physics2D.Linecast(transform.position, player.transform.position, masks);
             //we have hit the player, so DO stuff (access enemy movement, game over?)
             if(hit.collider != null && hit.collider.tag == "Player" && !isResetting){
-                //player.GetComponent<Animator>().Play("Caught");
-                Invoke("Reset", 1.5f);
+                player.GetComponent<PlayerMovement>().enabled = false;
+                player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;                                   
+                player.GetComponent<Animator>().Play("Caught");
+                Invoke("Reset", 0.66f);
                 Debug.DrawLine(transform.position, hit.point, Color.red);
                 //Debug.Log("Hit player");
                 isResetting = true;
@@ -63,6 +65,7 @@ public class Detection : MonoBehaviour
 
     void Reset(){
         player.transform.position = new Vector3(8.92f, 1.33f, 0);
+        player.GetComponent<PlayerMovement>().enabled = true;
         isResetting = false;
     }
 }
