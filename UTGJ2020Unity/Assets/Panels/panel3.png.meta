@@ -1,17 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 152a803ae6720cb43a33eebf686728d0
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD:UTGJ2020Unity/Assets/Panels/panel3.png.meta
-guid: 0adf2033881566042bad7099a5c374b5
-=======
-guid: fbe55808c814f6e42bc895ff1fc29ba9
->>>>>>> b790cac863ad2f760282b02be435cbb3c037e151:UTGJ2020Unity/Assets/Panels/panel2.png.meta
-=======
-guid: 32c55f1f9b2381548974d31681b3a757
->>>>>>> b790cac863ad2f760282b02be435cbb3c037e151
->>>>>>> 4fd57b77bf76bee301dd60dfe2bbf7e56f32b02a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,16 +31,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
     filterMode: 0
-=======
-    filterMode: -1
->>>>>>> 4fd57b77bf76bee301dd60dfe2bbf7e56f32b02a
     aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -73,14 +57,13 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -106,9 +89,6 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
-=======
-    textureCompression: 1
->>>>>>> 4fd57b77bf76bee301dd60dfe2bbf7e56f32b02a
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0

@@ -151,9 +151,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam_1: {fileID: 858025383}
-  cam_2: {fileID: 0}
-  cam_3: {fileID: 0}
-  mask: {fileID: 0}
 --- !u!4 &483084932
 Transform:
   m_ObjectHideFlags: 0
@@ -224,7 +221,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aeeb1e7544afcc948933a12b7a069aca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b9e0d0fa78090274fb8f734d241fe0c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -572,7 +569,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0adf2033881566042bad7099a5c374b5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 152a803ae6720cb43a33eebf686728d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
