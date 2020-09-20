@@ -820,7 +820,7 @@ GameObject:
   - component: {fileID: 506688298}
   - component: {fileID: 506688297}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Us
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -842,7 +842,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -349.90002, y: 41.486}
+  m_AnchoredPosition: {x: -317, y: 41.486}
   m_SizeDelta: {x: 698.3989, y: 557.72736}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &506688297
@@ -864,22 +864,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Mason
+  m_text: 'Mason: Programming
 
-    Connor
+    Connor: Design & Sprites/Sprite animations
 
-    Joseph
+    Kelly:
+    Sprites & Art
 
-    Kelly
+    Alyssa: Level Design
 
-    Alyssa
+    Jasper: Music and Sound Effects
 
-    Jasper
+    Joseph:
+    Programming, Design & Sprites
 
-    Ashley
+    Ashley: Writing
 
-    Special
-    thanks to Taylor!'
+    Special thanks to Taylor!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e809ff93639e3aa4bb78d6cc37a6157d, type: 2}
   m_sharedMaterial: {fileID: 3260197685188616005, guid: e809ff93639e3aa4bb78d6cc37a6157d,
@@ -925,7 +926,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 47
+  m_firstOverflowCharacterIndex: 190
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -946,13 +947,13 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -471.17505, w: 0}
   m_textInfo:
     textComponent: {fileID: 506688297}
-    characterCount: 72
+    characterCount: 215
     spriteCount: 0
-    spaceCount: 10
-    wordCount: 11
+    spaceCount: 29
+    wordCount: 28
     linkCount: 0
     lineCount: 8
     pageCount: 1
@@ -1624,7 +1625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 66ca252eb71a76543a2263c89eacc530, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 267827ae3b431894093dfeb80a1c5675, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
