@@ -37,13 +37,17 @@ public class ClassmateAnimation : MonoBehaviour
         {
             anim.Play("ClassMateSide");
         }
-        else if(velocity.y > 0.1 || velocity.y < -0.1)
+        else if(velocity.y < -0.1)
         {
             anim.Play("ClassMateForward");
         }
         else if(velocity == Vector3.zero)
         {
             anim.Play("ClassMateIdle");
+        }
+        else if(velocity.y > 0.1)
+        {
+            anim.Play("ClassMateBack");
         }
 
         if(velocity.x > 0.1 && !facingRight)
