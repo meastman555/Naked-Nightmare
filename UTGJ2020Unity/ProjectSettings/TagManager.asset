@@ -6,6 +6,16 @@ TagManager:
   tags:
   - Door
   - Key
+  - key1
+  - library2
+  - library1
+  - scienceLab1
+  - scienceLab2
+  - computerLab1
+  - computerLab2
+  - lounge1
+  - lounge2
+  - bathroom
   layers:
   - Default
   - TransparentFX
