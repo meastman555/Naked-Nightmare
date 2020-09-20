@@ -13,6 +13,8 @@ public class Detection : MonoBehaviour
     public LayerMask masks;
 
     public PathFinding path;
+
+    private bool isResetting = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,14 +41,17 @@ public class Detection : MonoBehaviour
             //player is within vision cone, but have to check if there is anything in the way
             RaycastHit2D hit = Physics2D.Linecast(transform.position, player.transform.position, masks);
             //we have hit the player, so DO stuff (access enemy movement, game over?)
-            if(hit.collider != null && hit.collider.tag == "Player"){
+            if(hit.collider != null && hit.collider.tag == "Player" && !isResetting){
+                //player.GetComponent<Animator>().Play("Caught");
+                Invoke("Reset", 1.5f);
                 Debug.DrawLine(transform.position, hit.point, Color.red);
-                Debug.Log("Hit player");
+                //Debug.Log("Hit player");
+                isResetting = true;
             } 
             //enemy sees an object in front of you, this technically should do nothing, but for testing
             else{
-                Debug.DrawLine(transform.position, player.transform.position, Color.blue);
-                Debug.Log("Hit object in front of player");
+                //Debug.DrawLine(transform.position, player.transform.position, Color.blue);
+                //Debug.Log("Hit object in front of player");
             }
         }
         //you are completely outside the fov range, so do nothing, but for testing
@@ -54,5 +59,10 @@ public class Detection : MonoBehaviour
             //Debug.DrawLine(transform.position, player.transform.position, Color.green, 20f);
         }
         transform.rotation = Quaternion.LookRotation(Vector3.forward, path.GetVelocity());
+    }
+
+    void Reset(){
+        player.transform.position = new Vector3(8.92f, 1.33f, 0);
+        isResetting = false;
     }
 }
