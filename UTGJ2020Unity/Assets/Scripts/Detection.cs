@@ -22,10 +22,7 @@ public class Detection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug to test with rotation
-        if(Input.GetKey(KeyCode.Space)){
-            transform.Rotate(0, 0, 100 * Time.deltaTime);
-        }
+        
     }
 
     //adapted from Unity docs on Vector3.angle and forum on basic cone FOV

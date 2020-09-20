@@ -38,7 +38,7 @@ public class PathFinding : MonoBehaviour
                 Time.deltaTime);
 
             //when we get there, increment to the next node
-            if (transform.position == waypoints[waypointIndex].transform.position)
+            if ((transform.position - waypoints[waypointIndex].transform.position).magnitude <= Mathf.Epsilon)
             {
                 waypointIndex += 1;
             }

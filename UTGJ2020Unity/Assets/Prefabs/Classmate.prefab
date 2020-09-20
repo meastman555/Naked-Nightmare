@@ -259,8 +259,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  fov: 90
-  maxDistance: 10
+  fov: 55
+  maxDistance: 5
   masks:
     serializedVersion: 2
     m_Bits: 257
