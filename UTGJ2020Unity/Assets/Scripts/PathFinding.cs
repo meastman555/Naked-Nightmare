@@ -11,15 +11,8 @@ public class PathFinding : MonoBehaviour
     [SerializeField]
     private float enemySpeed;
 
-    //for rotation stuff, uncomment when ready to test
-    [SerializeField]
-    private int[] rotatePoints;
-
-    [SerializeField]
-    private float[] rotateDegrees;
-
     private int waypointIndex = 0;
-    private int rotateIndex = 0;
+    private Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
@@ -47,13 +40,6 @@ public class PathFinding : MonoBehaviour
             //when we get there, increment to the next node
             if (transform.position == waypoints[waypointIndex].transform.position)
             {
-                //parent moves along the path, but we only want to rotate the child detection object
-                if(waypointIndex == rotatePoints[rotateIndex]){
-                    Debug.Log(rotateIndex);
-                    Debug.Log("rotated " + rotateDegrees[rotateIndex] + " degrees");
-                    transform.GetChild(0).gameObject.transform.eulerAngles = new Vector3(0, 0, rotateDegrees[rotateIndex]);
-                    rotateIndex++;
-                }
                 waypointIndex += 1;
             }
         }
@@ -61,7 +47,12 @@ public class PathFinding : MonoBehaviour
         if(waypointIndex >= waypoints.Length)
         {
             waypointIndex = 0;
-            rotateIndex = 0;
         }
+    }
+
+    //Rotates the detection cone based on the direction of velocity
+    //only moves in cardinal directions
+    public Vector3 GetVelocity(){
+        return Vector3.Normalize(waypoints[waypointIndex].transform.position - transform.position) * enemySpeed;
     }
 }
