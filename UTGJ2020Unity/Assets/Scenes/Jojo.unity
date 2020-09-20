@@ -454,6 +454,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorRed (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4181228057740696552, guid: 37554c0ce39c28f46b13bcae9bdfa367,
+        type: 3}
+      propertyPath: m_TagString
+      value: lounge1
+      objectReference: {fileID: 0}
     - target: {fileID: 4181228057740696557, guid: 37554c0ce39c28f46b13bcae9bdfa367,
         type: 3}
       propertyPath: keyType
@@ -542,6 +547,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DoorRed (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181228057740696552, guid: 37554c0ce39c28f46b13bcae9bdfa367,
+        type: 3}
+      propertyPath: m_TagString
+      value: scienceLab1
       objectReference: {fileID: 0}
     - target: {fileID: 4181228057740696557, guid: 37554c0ce39c28f46b13bcae9bdfa367,
         type: 3}
@@ -636,6 +646,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KeyGolden
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880123036836532489, guid: eb93785857d7d4d42bdc4b677ee5dfa0,
+        type: 3}
+      propertyPath: m_TagString
+      value: lounge2
       objectReference: {fileID: 0}
     - target: {fileID: 5880123036836532490, guid: eb93785857d7d4d42bdc4b677ee5dfa0,
         type: 3}
@@ -791,6 +806,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: KeyBlue
       objectReference: {fileID: 0}
+    - target: {fileID: 5880123036836532489, guid: eb93785857d7d4d42bdc4b677ee5dfa0,
+        type: 3}
+      propertyPath: m_TagString
+      value: scienceLab2
+      objectReference: {fileID: 0}
     - target: {fileID: 5880123036836532490, guid: eb93785857d7d4d42bdc4b677ee5dfa0,
         type: 3}
       propertyPath: m_Color.r
@@ -916,6 +936,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DoorRed (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181228057740696552, guid: 37554c0ce39c28f46b13bcae9bdfa367,
+        type: 3}
+      propertyPath: m_TagString
+      value: computerLab1
       objectReference: {fileID: 0}
     - target: {fileID: 4181228057740696557, guid: 37554c0ce39c28f46b13bcae9bdfa367,
         type: 3}
@@ -1166,6 +1191,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KeyGreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880123036836532489, guid: eb93785857d7d4d42bdc4b677ee5dfa0,
+        type: 3}
+      propertyPath: m_TagString
+      value: library2
       objectReference: {fileID: 0}
     - target: {fileID: 5880123036836532490, guid: eb93785857d7d4d42bdc4b677ee5dfa0,
         type: 3}
@@ -1968,6 +1998,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KeyPurple
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880123036836532489, guid: eb93785857d7d4d42bdc4b677ee5dfa0,
+        type: 3}
+      propertyPath: m_TagString
+      value: computerLab2
       objectReference: {fileID: 0}
     - target: {fileID: 5880123036836532490, guid: eb93785857d7d4d42bdc4b677ee5dfa0,
         type: 3}

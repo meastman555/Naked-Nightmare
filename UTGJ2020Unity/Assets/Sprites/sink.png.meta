@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:UTGJ2020Unity/Assets/Sprites/sink.png.meta
 guid: 34b50a55aa05f17408bbe0caa7790021
+=======
+guid: 2dc00f6797d183849bbc00caa8507f60
+>>>>>>> 4fd57b77bf76bee301dd60dfe2bbf7e56f32b02a:UTGJ2020Unity/Assets/Panels/panel1.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
