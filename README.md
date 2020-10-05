@@ -16,4 +16,4 @@ Ashley Poprik: Writing
 
 Special thanks to our mentor Taylor Yust!
 
-Made as a part of UT Game Jam 2020
+Made as a part of UT Game Jam 2020. To play, download and unzip the windows build file.
