@@ -50,6 +50,7 @@ public class PathFinding : MonoBehaviour
         }
     }
 
+    //Authored by Mason Eastman
     //Rotates the detection cone based on the direction of velocity
     //only moves in cardinal directions
     public Vector3 GetVelocity(){
