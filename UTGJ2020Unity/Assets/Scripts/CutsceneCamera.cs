@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Authored by Mason Eastman
 public class CutsceneCamera : MonoBehaviour
 {
 
